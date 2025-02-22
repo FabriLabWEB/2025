@@ -2,8 +2,8 @@ let formURL = "https://forms.gle/azuKYHAniw1RrjKf7";
 let buttonVisible = false;
 let dots = "";
 let frameCountSinceStart = 0;
-let img;
-let img2;
+//let img;
+//let img2;
 let audiowideFont;
 
 function preload() {
