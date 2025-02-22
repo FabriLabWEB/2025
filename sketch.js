@@ -8,9 +8,9 @@ let audiowideFont;
 
 function preload() {
     // Cargar una imagen desde una URL o un archivo local
-    img = loadImage("Text Tittle.png"); // Reemplázala con tu logo
-    img2 = loadImage("QR FabriLab Web.png");
-    audiowideFont = loadFont("Audiowide-Regular.ttf"); // Fuente Audiowide
+    img = loadImage("https://github.com/FabriLabWEB/2025/blob/main/Text%20Tittle.png?raw=true"); // Reemplázala con tu logo
+    img2 = loadImage("https://github.com/FabriLabWEB/2025/blob/main/QR%20FabriLab%20Web.png?raw=true");
+    audiowideFont = loadFont("https://github.com/FabriLabWEB/2025/raw/refs/heads/main/Audiowide-Regular.ttf"); // Fuente Audiowide
 }
 
 function setup() {
