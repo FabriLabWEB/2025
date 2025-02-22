@@ -8,9 +8,9 @@ let audiowideFont;
 
 function preload() {
     // Cargar una imagen desde una URL o un archivo local
-    img = loadImage("https://github.com/FabriLabWEB/2025/blob/main/Text%20Tittle.png?raw=true"); // Reemplázala con tu logo
-    img2 = loadImage("https://github.com/FabriLabWEB/2025/blob/main/QR%20FabriLab%20Web.png?raw=true");
-    audiowideFont = loadFont("https://github.com/FabriLabWEB/2025/raw/refs/heads/main/Audiowide-Regular.ttf"); // Fuente Audiowide
+    //img = loadImage("https://github.com/FabriLabWEB/2025/blob/main/Text%20Tittle.png?raw=true"); // Reemplázala con tu logo
+    //img2 = loadImage("https://github.com/FabriLabWEB/2025/blob/main/QR%20FabriLab%20Web.png?raw=true");
+    //audiowideFont = loadFont("https://github.com/FabriLabWEB/2025/raw/refs/heads/main/Audiowide-Regular.ttf"); // Fuente Audiowide
 }
 
 function setup() {
@@ -31,17 +31,17 @@ function setup() {
     if (!newTab || newTab.closed || typeof newTab.closed === "undefined") {
         buttonVisible = true;
     }
-  imageMode(CENTER, CENTER);
+  //imageMode(CENTER, CENTER);
 }
 
 function draw() {
     background(20);
     fill(255);
-    textFont(audiowideFont);
+    //textFont(audiowideFont);
 
-    image(img, width/2, height*0.28, img.width*0.1, img.height*0.1);
+    //image(img, width/2, height*0.28, img.width*0.1, img.height*0.1);
   
-    image(img2, width/2, height*0.61, img2.width*0.14, img2.height*0.14);
+    //image(img2, width/2, height*0.61, img2.width*0.14, img2.height*0.14);
 
     // Animación de "Redirigiendo..."
     frameCountSinceStart++;
